@@ -7,7 +7,7 @@ This repo contains two directories:
 Key scripts under each directory:
 
 Under nav_nn\:
-NavMaster_lr2b.m: initializes, trains and tests a bio-inspired network to drive navigation (practically identical to NavMaster_lr2.m, only differ in output plots)
+NavMaster_lr2b.m: initializes, trains and tests a bio-inspired network to drive navigation (practically identical to NavMaster_lr2.m and NavMaster_lr2a.m, only differ in output plots)
 
 env_generate_nn.m: allows user to load an existing set of environmental params or create a new set
 
