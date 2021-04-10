@@ -46,6 +46,7 @@ figure(39);clf; hold all
 yyaxis left; plot(r_h)
 yyaxis right; plot(nd_h)
 %% test learned weights
+xrn = 3000; yrn = xrn;
 % w_in = w_h(end,:);
 loc0 = [(rand-.5)*xrn (rand-.5)*yrn];
 % loc0 = [300 500];

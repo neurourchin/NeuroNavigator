@@ -49,6 +49,7 @@ figure(39);clf; hold all
 plot(r_h)
 %% test learned weights
 % w_in = w_h(end,:);
+xrn = 3000; yrn = xrn;
 loc0 = [(rand-.5)*xrn (rand-.5)*yrn];
 % loc0 = [300 500];
 agent_generate_lr
